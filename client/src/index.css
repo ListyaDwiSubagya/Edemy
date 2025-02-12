@@ -2,6 +2,27 @@
 
 @import "tailwindcss";
 
+@theme {
+  --course-details-heading-small: 26px;
+  --course-details-line-height-small: 36px;
+
+  --course-details-heading-large: 36px;
+  --course-details-line-height-large: 44px;
+
+  --home-heading-small: 28px;
+  --home-line-height-small: 34px;
+
+  --home-heading-large: 48px;
+  --home-line-height-large: 56px;
+
+  --default-font-size: 15px;
+  --default-line-height: 21px;
+
+  --color-mint-500: oklch(0.72 0.11 178);
+
+}
+
+
 *{
   font-family: Outfit;
 }
