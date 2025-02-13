@@ -19,9 +19,13 @@
   --default-line-height: 21px;
 
   --color-mint-500: oklch(0.72 0.11 178);
+  
+  --grid-cols-auto: repeat(auto-fit, minmax(200px, 1fr)); 
 
 }
-
+.grid-cols-auto {
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
 
 *{
   font-family: Outfit;
