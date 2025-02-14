@@ -27,6 +27,10 @@
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 
+.h-section-height {
+  height: 500px;
+}
+
 *{
   font-family: Outfit;
 }
